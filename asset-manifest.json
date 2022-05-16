@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a21f3e3b.css",
-    "main.js": "/portfolio/static/js/main.ec6b9e95.js",
+    "main.css": "/portfolio/static/css/main.85c4bd4a.css",
+    "main.js": "/portfolio/static/js/main.ea890771.js",
     "static/js/787.1f11dfe9.chunk.js": "/portfolio/static/js/787.1f11dfe9.chunk.js",
-    "static/media/freelance.png": "/portfolio/static/media/freelance.89ccb901dd0ee95bc247.png",
-    "static/media/pratt.png": "/portfolio/static/media/pratt.f312ddb1c0e65a040036.png",
-    "static/media/aapc.png": "/portfolio/static/media/aapc.acdc2b3d539b954ca993.png",
-    "static/media/portfolio.png": "/portfolio/static/media/portfolio.9be25637396ec85b3a48.png",
-    "static/media/ShannonLeResume.pdf": "/portfolio/static/media/ShannonLeResume.87d0f65d31ce96e7758f.pdf",
+    "static/media/aaa-fair-credit-preview.webp": "/portfolio/static/media/aaa-fair-credit-preview.1335a0539e2c0169ab95.webp",
+    "static/media/pratt-preview.webp": "/portfolio/static/media/pratt-preview.7c3632326bedf2270417.webp",
+    "static/media/aapc-preview.webp": "/portfolio/static/media/aapc-preview.dba1701298c4775f938f.webp",
+    "static/media/aaa-fair-credit-preview.jpg": "/portfolio/static/media/aaa-fair-credit-preview.760d4a918efe23ee8ca9.jpg",
+    "static/media/ShannonLeResume.pdf": "/portfolio/static/media/ShannonLeResume.a3df7bbcc2590565911c.pdf",
+    "static/media/pratt-preview.jpg": "/portfolio/static/media/pratt-preview.68b5c138509906cd2f18.jpg",
+    "static/media/aapc-preview.jpg": "/portfolio/static/media/aapc-preview.8d7bcd85a1ef58f6c0ef.jpg",
+    "static/media/ios-apps-preview.jpg": "/portfolio/static/media/ios-apps-preview.c34bd2c713d16eb2d94a.jpg",
+    "static/media/ios-apps-preview.webp": "/portfolio/static/media/ios-apps-preview.f978a294182c5bdad29e.webp",
+    "static/media/portfolio-preview.webp": "/portfolio/static/media/portfolio-preview.4e5fcc50db5cee7b8422.webp",
+    "static/media/portfolio-preview.jpg": "/portfolio/static/media/portfolio-preview.906ed8d62691a55c9a29.jpg",
     "static/media/email.svg": "/portfolio/static/media/email.4b8ce376cf009e5393a038218d6f801d.svg",
     "static/media/github.svg": "/portfolio/static/media/github.04ed74f38b41cdcbf14f80ae8cd0aa2b.svg",
     "index.html": "/portfolio/index.html",
-    "main.a21f3e3b.css.map": "/portfolio/static/css/main.a21f3e3b.css.map",
-    "main.ec6b9e95.js.map": "/portfolio/static/js/main.ec6b9e95.js.map",
+    "main.85c4bd4a.css.map": "/portfolio/static/css/main.85c4bd4a.css.map",
+    "main.ea890771.js.map": "/portfolio/static/js/main.ea890771.js.map",
     "787.1f11dfe9.chunk.js.map": "/portfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a21f3e3b.css",
-    "static/js/main.ec6b9e95.js"
+    "static/css/main.85c4bd4a.css",
+    "static/js/main.ea890771.js"
   ]
 }
