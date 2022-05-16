@@ -7,7 +7,7 @@ module.exports = {
       fontSize: {
       },
       fontFamily: {
-        'ibm-plex-sans': ['"IBM Plex Sans"', '"Montserrat"']
+        'ibm-plex-sans': ['"IBM Plex Sans"', '"Montserrat"', '"ui-sans-serif"', '"system-ui"']
       }
     },
   },

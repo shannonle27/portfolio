@@ -1,14 +1,21 @@
+import AAPCWebp from '../img/webp/aapc-preview.webp';
+import AAAFairCreditWebp from '../img/webp/aaa-fair-credit-preview.webp';
+import PortfolioWebp from '../img/webp/portfolio-preview.webp';
+import PrattWebp from '../img/webp/pratt-preview.webp';
+import IosAppsWebp from '../img/webp/ios-apps-preview.webp';
 
-import AAPC from '../img/aapc.png';
-import Freelance from '../img/freelance.png';
-import Portfolio from '../img/portfolio.png';
-import Pratt from '../img/pratt.png'
+import AAPC from '../img/jpg/aapc-preview.jpg';
+import AAAFairCredit from '../img/jpg/aaa-fair-credit-preview.jpg';
+import Portfolio from '../img/jpg/portfolio-preview.jpg';
+import Pratt from '../img/jpg/pratt-preview.jpg';
+import IosApps from '../img/jpg/ios-apps-preview.jpg';
 
 function Projects() {
  const cards = [
    {
      name: 'AAPC | Business',
      image: AAPC,
+     webp: AAPCWebp,
      alt: 'AAPC Website Preview',
      link: 'https://www.aapc.com/business',
      description: 'Maintained legacy site using C#, .Net, Javascript and CSS. Built new site using React, NextJS, GraphQL and TailwindCSS.',
@@ -17,6 +24,7 @@ function Projects() {
    {
     name: 'Pratt International',
     image: Pratt,
+    webp: PrattWebp,
     alt: 'Pratt International Website Preview',
     link: 'https://www.hosspratt.com/',
     description: 'Content, design and navbar changes using Ruby on Rails hosted on Heroku.',
@@ -24,7 +32,8 @@ function Projects() {
   },
    {
     name: 'AAA Fair Credit',
-    image: Freelance,
+    image: AAAFairCredit,
+    webp: AAAFairCreditWebp,
     alt: 'AAA Fair Credit Website Preview',
     link: 'https://faircredit.org/',
     description: 'Layout, content and navbar changes using Wix.',
@@ -33,22 +42,16 @@ function Projects() {
   {
     name: 'Portfolio',
     image: Portfolio,
+    webp: PortfolioWebp,
     alt: 'Portfolio Website Preview',
     link: 'https://shannonle27.github.io/portfolio',
     description: 'Static portfolio site using React, CreateReactApp and TailwindCSS.',
     tags: ['React', 'TailwindCSS']
   },
   {
-    name: 'Tuesday.com',
-    image: {Portfolio},
-    alt: 'Tuesday.com Website Preview',
-    link: 'https://shannonle27.github.io/portfolio',
-    description: 'Personal project mocking Monday.com using React, NextJS and TailwindCSS.',
-    tags: ['React', 'NextJS', 'TailwindCSS']
-  },
-  {
     name: 'iOS Apps',
-    image: {Portfolio},
+    image: IosApps,
+    webp: IosAppsWebp,
     alt: 'iOS Apps Website Preview',
     link: 'https://apps.apple.com/us/developer/shannon-le/id1478216052',
     description: 'Personal project, live iOS Apps made with Swift, React Native and Google Firebases.',
@@ -63,7 +66,11 @@ function Projects() {
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
         {cards.map((card) => (
           <a href={card.link} target="_blank" className="m-auto max-w-sm rounded-xl overflow-hidden hover:shadow-lg bg-white h-full text-gray-700 border-2 hover:border-purple-600">
-        <img className="w-full h-56 object-cover" src={card.image} alt={card.alt}/>
+            <picture>
+          <source srcset={card.webp} />
+            <img className="w-full h-56 object-cover" src={card.image} alt={card.alt}/>
+
+            </picture>
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">{card.name}</div>
           <p className="text-gray-600">
