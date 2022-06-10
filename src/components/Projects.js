@@ -3,12 +3,14 @@ import AAAFairCreditWebp from '../img/webp/aaa-fair-credit-preview.webp';
 import PortfolioWebp from '../img/webp/portfolio-preview.webp';
 import PrattWebp from '../img/webp/pratt-preview.webp';
 import IosAppsWebp from '../img/webp/ios-apps-preview.webp';
+import AsanaWebp from '../img/jpg/asana-preview.webp';
 
 import AAPC from '../img/jpg/aapc-preview.jpg';
 import AAAFairCredit from '../img/jpg/aaa-fair-credit-preview.jpg';
 import Portfolio from '../img/jpg/portfolio-preview.jpg';
 import Pratt from '../img/jpg/pratt-preview.jpg';
 import IosApps from '../img/jpg/ios-apps-preview.jpg';
+import Asana from '../img/jpg/asana-preview.jpg';
 
 function Projects() {
  const cards = [
@@ -38,6 +40,15 @@ function Projects() {
     link: 'https://faircredit.org/',
     description: 'Layout, content and navbar changes using Wix.',
     tags: ['HTML/CSS', 'Wix', 'Javascript']
+  },
+  {
+    name: 'Asana Clone',
+    image: Asana,
+    webp: AsanaWebp,
+    alt: 'Asana Website Preview',
+    link: 'https://asanapern.netlify.app',
+    description: 'Asana Clone web application using PERN stack',
+    tags: ['PostgreSQL', 'Express', 'React', 'NodeJS']
   },
   {
     name: 'Portfolio',
