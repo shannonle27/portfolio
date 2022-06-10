@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.85c4bd4a.css",
-    "main.js": "/portfolio/static/js/main.ea890771.js",
+    "main.js": "/portfolio/static/js/main.91e41157.js",
     "static/js/787.1f11dfe9.chunk.js": "/portfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/aaa-fair-credit-preview.webp": "/portfolio/static/media/aaa-fair-credit-preview.1335a0539e2c0169ab95.webp",
     "static/media/pratt-preview.webp": "/portfolio/static/media/pratt-preview.7c3632326bedf2270417.webp",
@@ -11,18 +11,20 @@
     "static/media/pratt-preview.jpg": "/portfolio/static/media/pratt-preview.68b5c138509906cd2f18.jpg",
     "static/media/aapc-preview.jpg": "/portfolio/static/media/aapc-preview.8d7bcd85a1ef58f6c0ef.jpg",
     "static/media/ios-apps-preview.jpg": "/portfolio/static/media/ios-apps-preview.c34bd2c713d16eb2d94a.jpg",
+    "static/media/asana-preview.jpg": "/portfolio/static/media/asana-preview.ad1ae2336453d929f217.jpg",
     "static/media/ios-apps-preview.webp": "/portfolio/static/media/ios-apps-preview.f978a294182c5bdad29e.webp",
     "static/media/portfolio-preview.webp": "/portfolio/static/media/portfolio-preview.4e5fcc50db5cee7b8422.webp",
+    "static/media/asana-preview.webp": "/portfolio/static/media/asana-preview.d4cb0d94cde5979a606a.webp",
     "static/media/portfolio-preview.jpg": "/portfolio/static/media/portfolio-preview.906ed8d62691a55c9a29.jpg",
     "static/media/email.svg": "/portfolio/static/media/email.4b8ce376cf009e5393a038218d6f801d.svg",
     "static/media/github.svg": "/portfolio/static/media/github.04ed74f38b41cdcbf14f80ae8cd0aa2b.svg",
     "index.html": "/portfolio/index.html",
     "main.85c4bd4a.css.map": "/portfolio/static/css/main.85c4bd4a.css.map",
-    "main.ea890771.js.map": "/portfolio/static/js/main.ea890771.js.map",
+    "main.91e41157.js.map": "/portfolio/static/js/main.91e41157.js.map",
     "787.1f11dfe9.chunk.js.map": "/portfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.85c4bd4a.css",
-    "static/js/main.ea890771.js"
+    "static/js/main.91e41157.js"
   ]
 }
